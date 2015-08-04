@@ -1,0 +1,42 @@
+{
+  "name": "mui-app",
+  "version": "0.11.0",
+  "author": "Xiaoyi LU",
+  "description": "Material UI app with webpack",
+  "dependencies": {
+    "webpack": "^1.10.3",
+    "webpack-dev-server": "^1.10.1",
+    "bootstrap": "https://github.com/twbs/bootstrap/archive/v3.0.2.tar.gz",
+    "jade-loader": "0.6.x",
+    "json-loader": "0.5.x",
+    "url-loader": "0.5.x",
+    "file-loader": "0.5.x",
+    "coffee-loader": "0.7.x",
+    "jshint-loader": "0.6.x",
+    "bundle-loader": "0.5.x",
+    "style-loader": "0.6.x",
+    "css-loader": "0.6.x",
+    "less-loader": "0.7.x",
+    "exports-loader": "0.6.x",
+    "raw-loader": "0.5.x",
+    "material-ui": "^0.10.2",
+    "image-webpack-loader": "^1.6.1"
+  },
+  "jam": {
+    "dependencies": {
+      "jquery": "1.9.1"
+    }
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "scripts": {
+    "start": "webpack-dev-server -d --colors"
+  },
+  "engines": {
+    "node":  ">=0.1.30"
+  }
+}
